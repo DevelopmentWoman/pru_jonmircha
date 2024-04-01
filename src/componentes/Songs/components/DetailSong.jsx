@@ -5,7 +5,7 @@ export const DetailSong = ({lyric, bio}) => {
 
 
   return (
-    <section>
+    <section className="detail-song">
         <Lyric lyric={lyric}/>
         <Bio bio={bio}/>
     </section>
